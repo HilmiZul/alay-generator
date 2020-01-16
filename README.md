@@ -3,12 +3,12 @@
 * Vokal: mengubah huruf vokal menjadi huruf ```i```
 
 # Install
-0. Install python 3.7.x
-1. Clone/download [repo ini](https://github.com/HilmiZul/alay-generator)
+* Install python 3.7.x
+* Clone/download [repo ini](https://github.com/HilmiZul/alay-generator)
 ```
 git clone https://github.com/HilmiZul/alay-generator
 ```
-2. Jalankan
+* Jalankan
 ```
 python main.py
 ```
