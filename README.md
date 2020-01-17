@@ -12,3 +12,8 @@ git clone https://github.com/HilmiZul/alay-generator
 ```
 python main.py
 ```
+
+# Install as package via pip
+```
+pip install alay
+```
