@@ -8,7 +8,6 @@ setup(
     author = 'Zul Hilmi',
     author_email = 'netspytux@gmail.com',
     url = 'https://github.com/HilmiZul/alay-generator',
-    download_url = 'https://github.com/HilmiZul/alay-generator/archive/master.zip',
     keywords = ['alay', 'alay generator', 'bahasa alay'],
     classifiers = [
       "Programming Language :: Python :: 3",
