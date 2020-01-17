@@ -1,8 +1,12 @@
 import os
 import menu
+import platform
 
 while True:
-  os.system('clear')
+  if platform.system() == 'Darwin' or platform.system() == 'Linux':
+    os.system('clear')
+  else:
+    os.system('cls')
   print("== Alay Generator ==")
   print("1. Original")
   print("2. Vokal")

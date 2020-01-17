@@ -1,11 +1,15 @@
 import os
+import platform
 from alay.generator import Generator
 
 alay = Generator()
 
 def original():
   while True:
-    os.system('clear')
+    if platform.system() == 'Darwin' or platform.system() == 'Linux':
+      os.system('clear')
+    else:
+      os.system('cls')
     print("Alay Generator: Original")
     print("----------------------------")
     alay.teks = input('Input teks: ')
@@ -18,7 +22,10 @@ def original():
 
 def vokal():
   while True:
-    os.system('clear')
+    if platform.system() == 'Darwin' or platform.system() == 'Linux':
+      os.system('clear')
+    else:
+      os.system('cls')
     print("Alay Generator: Vokal")
     print("----------------------------")
     alay.teks = input('Input teks: ')
