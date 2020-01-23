@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name = 'alay',
     packages = ['alay'],
-    version = '1.1',  # Ideally should be same as your GitHub release tag varsion
+    version = '1.2',
     description = 'Generate your text into Alay style.',
     author = 'Zul Hilmi',
     author_email = 'netspytux@gmail.com',

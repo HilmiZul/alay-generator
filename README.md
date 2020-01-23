@@ -1,6 +1,9 @@
+[![version](https://img.shields.io/badge/version-1.2-blue)](https://pypi.org/project/alay/)
+
 # Alay Generator
 * Original: mengubah teks menjadi huruf besar dan kecil
 * Vokal: mengubah huruf vokal menjadi huruf ```i```
+* Autis: mencampurkan dengan angka/karakter simbol
 
 # Install
 * Install python 3.7.x

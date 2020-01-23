@@ -10,7 +10,8 @@ while True:
   print("== Alay Generator ==")
   print("1. Original")
   print("2. Vokal")
-  print("3. Selesai")
+  print("3. Autis")
+  print("4. Selesai")
   pilih = input("Pilih (1/2/3): ")
 
   if pilih == '1':
@@ -18,5 +19,7 @@ while True:
   elif pilih == '2':
     menu.vokal()
   elif pilih == '3':
+    menu.autis()
+  elif pilih == '4':
     print("selesai.")
     break
