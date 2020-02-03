@@ -20,3 +20,20 @@ python main.py
 ```
 pip install alay
 ```
+```python
+from alay.generator import Generator
+
+alay = Generator()
+
+# input teks
+alay.teks = "aku suka sama kamu"
+
+alay.original()
+# aKu sUkA SaMa kAmU
+
+alay.vokal()
+# iki siki simi kimi
+
+alay.autis()
+# 4ku 5uk4 54m4 k4mu
+```
