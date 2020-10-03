@@ -20,6 +20,8 @@ while True:
     menu.vokal()
   elif pilih == '3':
     menu.autis()
+  elif pilih == '0':
+    menu.ubahkata()
   elif pilih == '4':
     print("selesai.")
     break

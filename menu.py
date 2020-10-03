@@ -1,8 +1,8 @@
 import os
 import platform
-from alay.generator import Generator
+from bahasa.alay import Alay
 
-alay = Generator()
+alay = Alay()
 
 def original():
   while True:
@@ -51,3 +51,6 @@ def autis():
       continue
     elif tanya == 't':
       break
+
+def ubahkata():
+  print(alay.ubahkata())

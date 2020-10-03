@@ -1,4 +1,4 @@
-[![version](https://img.shields.io/badge/version-1.2-blue)](https://pypi.org/project/alay/)
+[![version](https://img.shields.io/badge/version-1.2.1-blue)](https://pypi.org/project/alay/)
 
 # Alay Generator
 * Original: mengubah teks menjadi huruf besar dan kecil
@@ -21,19 +21,19 @@ python main.py
 pip install alay
 ```
 ```python
-from alay.generator import Generator
+from bahasa.alay import Alay
 
-alay = Generator()
+alay = Alay()
 
 # input teks
-alay.teks = "aku suka sama kamu"
+alay.teks = "aku kangen kamu"
 
 alay.original()
-# aKu sUkA SaMa kAmU
+# aKu kAnGeN KaMu
 
 alay.vokal()
-# iki siki simi kimi
+# iki kingin kimi
 
 alay.autis()
-# 4ku 5uk4 54m4 k4mu
+# 4ku k4n63n k4mu
 ```
